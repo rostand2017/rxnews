@@ -1,0 +1,424 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Details news{% endblock %}
+{% block styles %}{% endblock %}
+
+{% block body %}
+    <!-- Breadcrumb -->
+    <div class="container">
+        <div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+            <div class="f2-s-1 p-r-30 m-tb-6">
+                <a href="{{ path('index') }}" class="breadcrumb-item f1-s-3 cl9">
+                    Home
+                </a>
+
+                <a href="{{ path('news_category', {category: news.category.id, title: news.category.title}) }}" class="breadcrumb-item f1-s-3 cl9">
+                    {{ news.category.title }}
+                </a>
+
+                <span class="breadcrumb-item f1-s-3 cl9">
+                    {{ news.title }}
+				</span>
+            </div>
+
+            <form action="{{ path('news_category', {title: news.category.title, category: news.category.id}) }}" class="pos-relative size-a-2 bo-1-rad-22 of-hidden bocl11 m-tb-6">
+                <input class="f1-s-1 cl6 plh9 s-full p-l-25 p-r-45" type="text" name="q" placeholder="Search">
+                <button class="flex-c-c size-a-1 ab-t-r fs-20 cl2 hov-cl10 trans-03">
+                    <i class="zmdi zmdi-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <section class="bg0 p-b-140 p-t-10">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8 p-b-30">
+                    <div class="p-r-10 p-r-0-sr991">
+                        <div class="p-b-70">
+                            <a href="#" class="f1-s-10 cl2 hov-cl10 trans-03 text-uppercase">
+                                {{ news.category.title }}
+                            </a>
+
+                            <h3 class="f1-l-3 cl2 p-b-16 p-t-33 respon2">
+                                {{ news.title }}
+                            </h3>
+
+                            <div class="flex-wr-s-s p-b-40">
+								<span class="f1-s-3 cl8 m-r-15">
+									<span>
+										{{ news.createdat | date('M d') }}
+									</span>
+								</span>
+
+                                <span class="f1-s-3 cl8 m-r-15">
+									{{ viewers | length }}  Ansicht{% if viewers | length > 1 %}en{% endif %}
+								</span>
+
+                                <a href="#commentContainer" class="f1-s-3 cl8 hov-cl10 trans-03 m-r-15">
+                                    {{ comments | length }} Kommentar{% if comments | length > 1 %}e{% endif %}
+                                </a>
+                            </div>
+
+                            <div class="wrap-pic-max-w p-b-30">
+                                <img src="{{ news.image }}" alt="IMG">
+                            </div>
+
+                            <p class="f1-s-11 cl6 p-b-25">{{ news.content }}</p>
+
+                            <!-- Tag
+                            <div class="flex-s-s p-t-12 p-b-15">
+								<span class="f1-s-12 cl5 m-r-8">
+									Tags:
+								</span>
+
+                                <div class="flex-wr-s-s size-w-0">
+                                    <a href="#" class="f1-s-12 cl8 hov-link1 m-r-15">
+                                        Streetstyle
+                                    </a>
+
+                                    <a href="#" class="f1-s-12 cl8 hov-link1 m-r-15">
+                                        Crafts
+                                    </a>
+                                </div>
+                            </div> -->
+
+                            <!-- Share -->
+                            <div class="flex-s-s">
+								<span class="f1-s-12 cl5 p-t-1 m-r-15">
+									Teilen:
+								</span>
+
+                                <div class="flex-wr-s-s size-w-0">
+                                    <a href="#" class="dis-block f1-s-13 cl0 bg-facebook borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+                                        <i class="fab fa-facebook-f m-r-7"></i>
+                                        Facebook
+                                    </a>
+
+                                    <a href="#" class="dis-block f1-s-13 cl0 bg-twitter borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+                                        <i class="fab fa-twitter m-r-7"></i>
+                                        Twitter
+                                    </a>
+
+                                    <a href="#" class="dis-block f1-s-13 cl0 bg-google borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+                                        <i class="fab fa-google-plus-g m-r-7"></i>
+                                        Google+
+                                    </a>
+
+                                    <a href="#" class="dis-block f1-s-13 cl0 bg-pinterest borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+                                        <i class="fab fa-pinterest-p m-r-7"></i>
+                                        Pinterest
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" id="commentContainer">
+                            {% for comment in comments %}
+                                {% if comment.comment is null %}
+                                    <div class="col-md-12 m-2 p-2 comment" data-comment="{{ comment.id }}" style="background: #f9f9f9">
+                                        <h3 class="f1-l-4 cl3 p-b-12" style="color: #17b978">{{ comment.name }}</h3>
+                                        <p>{{ comment.content }}<a href="#addForm" title="antwort" data-name="{{ comment.name }}" data-id="{{ comment.id }}" class="btn-sm reply btn-outline-success float-right p-2 m-1" style="clear: both"><i class="fa fa-reply"></i></a></p>
+                                        <span class="f1-s-3">{{ comment.createdat | date('d.M.Y') }}</span>
+                                        <div class="m-2"></div>
+                                        {% for _comment in comments %}
+                                            {% if _comment.comment and _comment.comment.id == comment.id %}
+                                                <div style="background: #f9f9f9" class="subcomment ml-5" data-comment="{{ comment.id }}" data-subcomment="{{ _comment.id }}">
+                                                    <hr>
+                                                    <h4 class="f1-l-4" style="color: #339fb9">{{ _comment.name }}</h4>
+                                                    <p>{{ _comment.content }}</p>
+                                                    <span class="f1-s-3">{{ _comment.createdat | date('d.M.Y') }}</span>
+                                                </div>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+                        <!-- Leave a comment -->
+                        <div>
+                            <h4 class="f1-l-4 cl3 p-b-12">
+                                Hinterlasse einen Kommentar
+                            </h4>
+
+                            <p class="f1-s-13 cl8 p-b-40">
+                                Ihre E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert *
+                            </p>
+
+                            <form method="post" id="addForm" action="{{ path('comment_save', {news: news.id}) }}">
+                                <div id="message"></div>
+
+                                <h4 class="f1-l-4 cl3 p-b-12"><span id="replyingTo"></span><button type="button" id="reply_cancel" style="display: none" class="btn-sm btn-outline-info">&cross;</button></h4>
+                                <input type="hidden" id="replyId" name="comment" value=""/>
+                                <textarea class="bo-1-rad-3 bocl13 size-a-15 f1-s-13 cl5 plh6 p-rl-18 p-tb-14 m-b-20" id="comment" name="message" placeholder="Komentar..."></textarea>
+                                {% if app.user is null %}
+                                    <input class="bo-1-rad-3 bocl13 size-a-16 f1-s-13 cl5 plh6 p-rl-18 m-b-20" type="text" name="name" placeholder="Name*">
+
+                                    <input class="bo-1-rad-3 bocl13 size-a-16 f1-s-13 cl5 plh6 p-rl-18 m-b-20" type="text" name="email" placeholder="E-mail*">
+                                {% endif %}
+
+                                <button type="submit" id="addComment" class="size-a-17 bg2 borad-3 f1-s-12 cl0 hov-btn1 trans-03 p-rl-15 m-t-10">
+                                    Kommentar posten
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-md-10 col-lg-4 p-b-30">
+                    <div class="p-l-10 p-rl-0-sr991 p-t-70">
+                        <!-- Category -->
+                        <div class="p-b-60">
+                            <div class="how2 how2-cl4 flex-s-c">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Kategorie
+                                </h3>
+                            </div>
+
+                            <ul class="p-t-35">
+                                {% for category in categories %}
+                                    <li class="how-bor3 p-rl-4">
+                                        <a href="{{ path('news_category', {category: category.id, title: category.title}) }}" class="dis-block f1-s-10 text-uppercase cl2 hov-cl10 trans-03 p-tb-13">
+                                            {{ category.title }}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <!-- Archive -->
+                        <div class="p-b-37">
+                            <div class="how2 how2-cl4 flex-s-c">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Archive
+                                </h3>
+                            </div>
+
+                            <ul class="p-t-32">
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											July 2018
+										</span>
+
+                                        <span>
+											(9)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											June 2018
+										</span>
+
+                                        <span>
+											(39)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											May 2018
+										</span>
+
+                                        <span>
+											(29)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											April  2018
+										</span>
+
+                                        <span>
+											(35)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											March 2018
+										</span>
+
+                                        <span>
+											(22)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											February 2018
+										</span>
+
+                                        <span>
+											(32)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											January 2018
+										</span>
+
+                                        <span>
+											(21)
+										</span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+										<span>
+											December 2017
+										</span>
+
+                                        <span>
+											(26)
+										</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Popular Posts -->
+                        <div class="p-b-30">
+                            <div class="how2 how2-cl4 flex-s-c">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Popular Post
+                                </h3>
+                            </div>
+
+                            <ul class="p-t-35">
+                                {% for news in popularsNews %}
+                                    <li class="flex-wr-sb-s p-b-30">
+                                        <a href="{{ path('news_detail', {news: news.id, title: news.title}) }}" class="size-w-10 wrap-pic-w hov1 trans-03">
+                                            <img src="{{ news.image }}" alt="IMG">
+                                        </a>
+
+                                        <div class="size-w-11">
+                                            <h6 class="p-b-4">
+                                                <a href="{{ path('news_detail', {news: news.id, title: news.title}) }}" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                    {{ news.title }}
+                                                </a>
+                                            </h6>
+											<span class="f1-s-3">
+												{{ news.createdat | date('M d') }}
+											</span>
+                                        </div>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <!-- Tag -->
+                        <div>
+                            <div class="how2 how2-cl4 flex-s-c m-b-30">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Tags
+                                </h3>
+                            </div>
+
+                            <div class="flex-wr-s-s m-rl--5">
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Fashion
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Lifestyle
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Denim
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Streetstyle
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Crafts
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Magazine
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    News
+                                </a>
+
+                                <a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Blogs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        $('.reply').on('click', function (e) {
+           $('#replyId').val($(this).data('id'));
+           $('#replyingTo').html('Antwort zu <span class="text-success">@'+ $(this).data('name') +'</span>');
+           $('#reply_cancel').css({display: "inline"});
+        });
+
+        $('#reply_cancel').on('click', function (e) {
+           $('#replyId').val("");
+           $('#replyingTo').html('');
+           $('#reply_cancel').css({display: "none"});
+        });
+
+        $('#addForm').on('submit', function (e) {
+            e.preventDefault();
+            var url = $(this).attr('action');
+            var data = $(this).serialize();
+            $("#message").html('');
+            $.ajax({
+                url: url,
+                data: data,
+                type: 'post',
+                beforeSend: function () {
+                    $('#addComment').text('Warten auf...').prop({disabled: true});
+                    $("#message").html("");
+                },
+                complete: function () {
+                    $('#addComment').text('Kommentar posten').prop({disabled: false});
+                },
+                success: function (data) {
+                    if(data.status){
+                        $("#message").html("<span class='text-success'>"+data.message+"</span>");
+                        $("#comment").val("");
+                        setTimeout(function () {
+                            window.location.reload();
+                        }, 2000);
+                    }else{
+                        $("#message").html("<span class='text-danger'>"+data.message+"</span>");
+                    }
+                },
+                error: function () {
+                    $("#message").html("<span class='text-warning'>Stelle sicher, dass Sie eine Internetverbindung haben</span>");
+                }
+            })
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,26 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+news:
+    path: /news
+    controller: App\Controller\DefaultController::news
+news_category:
+    path: /news/{category}/{title}
+    controller: App\Controller\DefaultController::newsCategory
+    requirements:
+        category: \d+
+news_detail:
+    path: /news/{news}_{title}
+    controller: App\Controller\DefaultController::details
+    requirements:
+        news: \d+
+comment_save:
+    path: /news/comment/{news}
+    controller: App\Controller\DefaultController::saveComment
+    requirements:
+        news: \d+
+news_subscribe:
+    path: /subscribe
+    controller: App\Controller\DefaultController::subscribe
+#app_chatbox:
+#    resource: '@ChatBoxBundle/Resources/config/routing.yml'
