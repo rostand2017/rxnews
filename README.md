@@ -1,10 +1,10 @@
-#RXNEWS
+# RXNEWS
 A simple and pretty news application. Write, edit and publish a news, manage a users
 account. A user can authenticate, see news, comment and reply to another.
 
 Build with `symfony 5`
 
-##Installation
+## Installation
 
 -   Download the repository other use `git clone https://github.com/rostand2017/rxnews.git`
 -   Open your terminal in the root of the project and enter ``php composer.phar install``

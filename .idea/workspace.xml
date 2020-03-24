@@ -2,573 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a743a72f-821e-4164-aa7c-e3661405ca80" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.env" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/chatbox.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.phar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/bootstrap.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/mercure.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/validator.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/services.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/services/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/blog-detail-01.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/blog-detail-02.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/blog-grid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/blog-list-01.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/blog-list-02.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/category-01.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/category-02.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/contact.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/css/util.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/css/util.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-Hairline.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-HairlineItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/Lato-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Lato/OFL.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/Roboto/Roboto-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fa-brands.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fa-brands.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fa-regular.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fa-regular.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fa-solid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fa-solid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fontawesome-all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fontawesome-all.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fontawesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/css/fontawesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/js/fontawesome-all.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/css/material-design-iconic-font.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/css/material-design-iconic-font.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/home-02.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/home-03.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/banner-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/banner-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/banner-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-detail-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-list-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-list-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-list-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-list-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-list-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/blog-list-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/entertaiment-21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/icons/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/icons/icon-night.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/icons/logo-01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/icons/logo-02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/latest-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/latest-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/latest-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/latest-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/latest-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/latest-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/popular-post-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/popular-post-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/popular-post-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/popular-post-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/popular-post-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/popular-post-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-24.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-25.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-26.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-28.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-29.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-30.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-32.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-34.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-35.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-36.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-37.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-38.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-39.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-40.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-41.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-42.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-43.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-44.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-45.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-46.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-47.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-48.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/post-50.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/images/video-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/animate/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/animsition/css/animsition.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/animsition/css/animsition.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/animsition/js/animsition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/animsition/js/animsition.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/js/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/bootstrap/js/tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/css-hamburgers/hamburgers.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/css-hamburgers/hamburgers.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/HTML5_Blank_Demo_Template/vendor/jquery/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/01_HomePage_v1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/02_HomePage_v2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/03_HomePage_v3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/04_CategoryPage_v1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/05_CategoryPage_v2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/06_Blog_Grid_With_Sidebar.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/07_Blog_List_With_Sidebar_v1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/08_Blog_List_With_Sidebar_v2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/09_Blog_Details_With_Sidebar.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/10_Blog_Details_No_Sidebar.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/11_About.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/12_Contact.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/IMG_Previews/Megamenu.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/util.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/util.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-Hairline.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-HairlineItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/Lato-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Lato/OFL.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Roboto/Roboto-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fa-brands.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fa-brands.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fa-regular.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fa-regular.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fa-solid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fa-solid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fontawesome-all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fontawesome-all.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fontawesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/css/fontawesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/js/fontawesome-all.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-brands-400.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-regular-400.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-5.0.8/webfonts/fa-solid-900.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/css/material-design-iconic-font.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/css/material-design-iconic-font.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-detail-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-list-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-list-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-list-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-list-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-list-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blog-list-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/entertaiment-21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/icon-night.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/logo-01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/logo-02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/latest-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/latest-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/latest-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/latest-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/latest-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/latest-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/popular-post-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/popular-post-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/popular-post-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/popular-post-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/popular-post-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/popular-post-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-24.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-25.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-26.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-28.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-29.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-30.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-32.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-34.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-35.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-36.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-37.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-38.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-39.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-40.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-41.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-42.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-43.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-44.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-45.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-46.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-47.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-48.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/post-50.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/video-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/animate/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/animsition/css/animsition.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/animsition/css/animsition.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/animsition/js/animsition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/animsition/js/animsition.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/sweetalert/sweetalert2@9.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/EmailsController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/NewsController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Category.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Emails.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/News.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Viewers.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/CategoryType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/EmailsType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/NewsType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/UserType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20200314122309.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20200314123410.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20200314123437.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/NewsRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Services/FileUploader.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/symfony.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/_delete_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/edit.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/new.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/show.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/_delete_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/edit.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/new.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/show.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/layout.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/news/_delete_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/news/_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/news/edit.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/news/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/news/new.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/news/show.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/security/change_password.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/_delete_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/edit.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/new.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/show.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user_news/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user_news/news.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user_news/news_category.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user_news/news_detail.html.twig" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -586,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -904,15 +338,24 @@
       <workItem from="1584118744891" duration="26304000" />
       <workItem from="1584521648123" duration="101818000" />
       <workItem from="1585037870368" duration="1255000" />
-      <workItem from="1585044446700" duration="2872000" />
+      <workItem from="1585044446700" duration="3631000" />
     </task>
+    <task id="LOCAL-00001" summary="User authentication and registration is ok.&#10;news edit, add und delete.&#10;category edit, add und delete&#10;user management">
+      <created>1585055717858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585055717858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181463000" />
+    <option name="totallyTimeSpent" value="182222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21401028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -922,7 +365,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13303342" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -959,6 +402,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="User authentication and registration is ok.&#10;news edit, add und delete.&#10;category edit, add und delete&#10;user management" />
+    <option name="LAST_COMMIT_MESSAGE" value="User authentication and registration is ok.&#10;news edit, add und delete.&#10;category edit, add und delete&#10;user management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,8 +767,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
